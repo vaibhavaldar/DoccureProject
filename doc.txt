@@ -1,0 +1,55 @@
+Git :
+
+Git manages the project with repository.
+	1.go to github.com and signup and sign in
+	2.create an repository.
+	3.donwload and install git bash in ur local.
+	4.*First time when you will use gitbash you need to run bellow commands:
+	git config --global user.email "myemail"
+	git config --global user.name "myusername"
+	git config --global user.password mypassword
+    plz put your username, email and password exactly same which u have used when signing up to the github.com
+
+	5.git clone "repourl" --- to pull or to download the repository code at local.
+	6.Now I want to do initial setup of the project.
+	7.git init === to initilize the git at local. 
+	8.git status == this will show the changed or added or deleted status of every file in the branch.
+	9.git add fileName == it will add perticular file to the stage env.
+	10.git add . == it will add all the files that has been tracked in git status
+	11.git commit -m "Message" == this will commit the code with perticular message.
+	12.git push origin branch_name === this will upload or push the code at respective branch in repository.
+	
+	branch == When we create an new repository git will create main or master as an defualt branch.
+			We can create our different branches to work on different functionality and at the end of the 
+			day(devlopment) we need to merge the code at main branch.
+			Final copy of main branch will be deployed and delivered to the client.
+			
+	git fetch == > it will fetch or download all the branches available at that repository.
+	git checkout branch_name == > it will navigate to ur respective branch 
+	
+	And after u can do the development at ur branch and follor the same steps from git init step.
+	
+	Branches :
+	total 7 developrs are working on one project so there will be one master or main branch. from that main branch 
+	different branches will be created i.e. module or section wise.
+	
+	e.g. in our case we are creating two branches 1) booking_module 2) doctor_module.
+	
+	suppose three developer are working in booking module i.e Kajal, Sagar, Sidhant
+	
+	Now above three members will crete their seperate or topic branch from booking_module branch.
+	 sagar_bm, kalaj_bm, sidhant_bm
+	
+	Once development is completed by above theee they will push their code in respective branch ie sagar_bm, kalaj_bm, sidhant_bm.
+	
+	Now these developers will merge the code into booking_module branch. 
+	
+	Likewise other developers are working on  their respective i.e doctor_module or common_module and they will peform the same operation.
+	
+	At the end code from booking_module, doctor_module, common_module and all other branches will be merged into main or master branch.
+	
+	
+	
+	.
+	
+	
